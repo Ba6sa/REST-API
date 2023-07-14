@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 12, 2023 at 11:10 PM
+-- Generation Time: Jul 14, 2023 at 04:47 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -85,8 +85,11 @@ INSERT INTO `products` (`id`, `name`, `description`, `price`, `category_id`, `cr
 (42, 'Nike Shoes for Men', 'Nike Shoes', 12999, 3, '2015-12-12 06:47:08', '2015-12-11 21:47:08'),
 (48, 'Bristol Shoes', 'Awesome shoes.', 999, 5, '2016-01-08 06:36:37', '2016-01-07 21:36:37'),
 (60, 'Rolex Watch', 'Luxury watch.', 25000, 1, '2016-01-11 15:46:02', '2016-01-11 06:46:02'),
-(66, 'Vision pro eye glasses', 'The best innovative eye glasses for unclear vision .', 399, 4, '2023-07-12 18:44:11', '2023-07-12 16:44:11'),
-(67, 'Amazing Pillow 2.0', 'The best pillow for amazing programmers.', 199, 2, '2023-07-12 23:07:50', '2023-07-12 21:07:50');
+(66, 'Vision pro eye glasses', 'The best innovative eye glasses for unclear vision .', 599, 2, '2023-07-12 18:44:11', '2023-07-12 16:44:11'),
+(67, 'Amazing Pillow 2.0', 'The best pillow for amazing programmers.', 199, 2, '2023-07-12 23:07:50', '2023-07-12 21:07:50'),
+(68, 'Wireless CCTV', 'No need to use electricity to function, just solar energy!', 4699, 2, '2023-07-13 17:09:46', '2023-07-13 15:09:46'),
+(69, 'Football kit', 'The finest kit for great football player', 3699, 13, '2023-07-13 23:26:58', '2023-07-13 21:26:58'),
+(70, 'Angel can be human', 'Best book seller for bibliophile', 599, 6, '2023-07-14 15:53:45', '2023-07-14 13:53:45');
 
 --
 -- Indexes for dumped tables
@@ -118,7 +121,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
