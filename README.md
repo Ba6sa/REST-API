@@ -2,5 +2,4 @@
 
 - Implementation of CRUD (CREATE, READ, UPDATE, DELETE) functionality.
 - Implementation of search and pagination functionality.
-- Import Database - api_db.sql
-- Reference link tutorial: https://www.codeofaninja.com/create-simple-rest-api-in-php/#create-categories-table.
+- Database - api_db.sql
