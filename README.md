@@ -1,4 +1,4 @@
-# REST-API.v3 (A Simple REST API in PHP)
+# SIMPLE REST-API
 
 - Implementation of CRUD (CREATE, READ, UPDATE, DELETE) functionality.
 - Implementation of search and pagination functionality.
